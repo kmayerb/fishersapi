@@ -1,5 +1,7 @@
 import os
 from setuptools import setup, find_packages
+from os import path
+
 PACKAGES = find_packages()
 
 # Get version and release info, which is all stored in fishersapi/version.py
