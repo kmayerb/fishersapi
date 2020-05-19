@@ -28,17 +28,11 @@ CLASSIFIERS = ["Development Status :: 3 - Alpha",
 # Description should be a one-liner:
 description = "fishersapi: An API for applying a fast Fisher's Exact Test to variable pairs in pandas DataFrames"
 
-# read the contents of your README file into long_description
-this_directory = path.abspath(path.dirname(path.dirname(__file__)))
-
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()    
-
 NAME = "fishersapi"
 MAINTAINER = "Andrew Fiore-Gartland"
 MAINTAINER_EMAIL = "agartlan@fredhutch.org"
 DESCRIPTION = description
-LONG_DESCRIPTION = long_description
+
 LONG_DESCRIPTION_CONTENT_TYPE = 'text/markdown' 
 URL = "http://github.com/agartland/fishersapi"
 DOWNLOAD_URL = ""
